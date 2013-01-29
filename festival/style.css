@@ -1,0 +1,82 @@
+/*
+Theme Name:	Festival
+Theme URI: http://localhost/~chauvin/festival
+Description: Thème enfant du thème Twenty Twelve prévu pour le site Festival LGBT
+Author: Simon C.
+Author URI: http://localhost/~chauvin/festival
+Template: festival
+Version: 0.1.0
+*/
+@import url("../twentytwelve/style.css");
+
+
+#menu-navigation li { width:15%; text-align: center; padding: 0 5px; margin: 0 !important; }
+#menu-navigation li a:hover { text-decoration: underline; }
+#menu-navigation li a { color: #FFF  !important; }
+.fg-rouge {background-color: #F61D50 !important; }
+.fg-bleu  { background-color: #2121FB !important;  }
+.fg-vert { background-color: #26B603 !important; }
+.fg-purple { background-color: purple !important;  }
+.fg-gris { background-color: #CCC !important;  }
+.fg-orange { background-color: orange !important;  }
+
+/* Slideshow */
+.slideshow ul {
+  width:100%;
+
+}
+.slideshow {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+    height:450px;
+  background-color: #CCC;
+  border:2px solid #CCC;
+  padding: 0;
+  margin: 0;
+  }
+
+.slideshow li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.slideshow li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.slideshow img {
+  display: block;
+  height: auto;
+  float: left;
+  border: 0;
+  width:100%;
+  }
+
+
+.rslides_tabs {
+  width:370px !important;
+  margin:15px auto !important;
+}
+
+.rslides1_nav .prev {
+  text-align: center;
+}
+.rslides1_nav .next {
+  text-align: center;
+}
+
+.rslides1_s1, .rslides1_s2, .rslides1_s3, .rslides1_s4, .rslides1_s5, .rslides1_s6, .rslides1_s7, .rslides1_s8, .rslides1_s9 {
+  display: inline;
+  padding:6px;
+  background:#CCC;
+}
+.rslides1_s1:hover, .rslides1_s2:hover, .rslides1_s3:hover, .rslides1_s4:hover, .rslides1_s5:hover, .rslides1_s6:hover, .rslides1_s7:hover, .rslides1_s8:hover, .rslides1_s9:hover {
+  background:#FFF;
+}
